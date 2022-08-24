@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maxheight {
+  margin-top: 20px;
+  height: 40px;
+  background-color: red;
+}
+
+.minheight {
+  margin-top: 100px;
+  min-height: 40px;
+  background-color: brown;
+  color: white;
+}
+
+.maxwidth {
+  margin-top: 40px;
+  background-color: coral;
+  width: 500px;
+}
+
+.minwidth {
+  margin-top: 40px;
+  background-color: orange;
+  min-width: 500px;
+}
+
+h1 {
+  padding: 20px 0px;
+}
+
+.learngrid {
+  padding-top: 50px;
+}
+
+.header {
+  background-color: bisque;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
+.container {
+  overflow: hidden;
+}
+.blog,
+.contact,
+.about {
+  width: 33.33%;
+  height: 200px;
+  float: left;
+  line-height: 200px;
+  text-align: center;
+}
+
+.blog {
+  background-color: aquamarine;
+}
+
+.contact {
+  background-color: orchid;
+}
+
+.about {
+  background-color: olive;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5 {
+  width: 20%;
+  height: 200px;
+  float: left;
+  line-height: 200px;
+  text-align: center;
+}
+
+.div1 {
+  background-color: #006d77;
+  color: #edf6f9;
+}
+.div2 {
+  background-color: #83c5be;
+}
+.div3 {
+  background-color: #edf6f9;
+}
+.div4 {
+  background-color: #ffddd2;
+}
+.div5 {
+  background-color: #e29578;
+}
+.footer {
+  background-color: royalblue;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  color: aliceblue;
+}
